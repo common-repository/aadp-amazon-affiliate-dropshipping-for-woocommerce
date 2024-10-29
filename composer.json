@@ -1,0 +1,20 @@
+{
+    "name": "a2z/wp-amazon",
+    "description": "AADP : Amazon Affiliate & Dropshipping Plugin for WooCommerce helps you to give extra enhancing features for affiliators and sellers",
+    "type": "project",
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "AmazonPlugins",
+            "email": "amazonplugins@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aadp\\": "./inc"
+        }
+    }
+}
